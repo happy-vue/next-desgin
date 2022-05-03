@@ -1,0 +1,26 @@
+{
+  "name": "next-design",
+  "version": "0.0.1",
+  "private": true,
+  "description": "基于 handless-ui 的开发理念，实现样式与逻辑分离的组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happy-vue/next-design.git"
+  },
+  "keywords": [
+    "handless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/happy-vue/next-design/issues"
+  },
+  "homepage": "https://github.com/happy-vue/next-design#readme",
+  "devDependencies": {
+    "@zgsgs/eslint-config": "^0.0.6"
+  }
+}

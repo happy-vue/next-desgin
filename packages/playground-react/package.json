@@ -1,0 +1,23 @@
+{
+  "name": "playground-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "prebuild": "pnpm --filter @next-design/react build",
+    "dev:design": "pnpm --filter @next-design/react watch",
+    "dev:next": "next dev",
+    "dev": "npm-run-all -p dev:*",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rimraf ./.next"
+  },
+  "dependencies": {
+    "@next-design/react": "*",
+    "@popperjs/core": "^2.6.0",
+    "framer-motion": "^6.0.0",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-flatpickr": "^3.10.9"
+  }
+}
